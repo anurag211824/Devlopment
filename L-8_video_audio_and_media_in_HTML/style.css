@@ -1,0 +1,32 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: myfont;
+    background-color:#3498db;
+    
+}
+h1{
+    margin-left:80px;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.content{
+    justify-content:center;
+    align-items: centre;
+}
+.videos{
+    display: flex;
+}
+#first{
+    margin-left:50px;
+}
+.song{
+    margin-left:50px;
+}
+.youtube{
+    margin-left:50px;
+}

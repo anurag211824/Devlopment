@@ -1,0 +1,70 @@
+<!-- Without using br tag ,write a vertically 
+    aligned form asking name,city and pincode of a user -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: rgb(160, 105, 219);
+        }
+
+        div {
+            font-weight: 900;
+            font-size: larger;
+            text-align: center;
+        }
+
+        .container {
+            width: 40%;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid #111010;
+            border-radius: 5px;
+        }
+
+        * {
+            background-color: rgb(188, 226, 188);
+
+
+        }
+
+        .b {
+            font-size: medium;
+            margin: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>A form asking name, city, and pincode of a user</h1>
+    <div class="container">
+        <div>
+            <label for="username">Enter your user name</label>
+            <div><input type="text" id="username" name="username" placeholder="enter your name" style="width: 200px;">
+            </div>
+        </div>
+        <div>
+            <label for="city">Enter your city name</label>
+            <div><input type="text" id="city" name="city" placeholder="enter your city name" style="width: 200px;">
+            </div>
+        </div>
+        <div>
+            <label for="pincode">Enter your pincode</label>
+            <div> <input type="number" id="pincode" name="pincode" placeholder="enter your pincode"
+                    style="width: 200px;">
+            </div>
+        </div>
+        <div>
+            <button class="b">submit</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
